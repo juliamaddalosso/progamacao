@@ -48,6 +48,7 @@
                 }
     </style>
 </head>
+
  <body>
 <div class="card">
 <h1> SENAI</h1>
@@ -55,7 +56,12 @@
 <div Class="contador" id="numero-contador">0</div>
 <button id="botao-clique">clique aqui!</button>
 </div>
+<script>
+    const btn = document.getElementById('botao-clique');
+    const num = document.getElementById("numero-contador");
+    let c = 0;
+    btn.addEventListener('click',() num.textContent = ++c);
+    
+</script>
 </body>
-
-
 </html>
